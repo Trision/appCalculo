@@ -3,6 +3,7 @@ import math
 import mysql
 
 #declarando página
+st.image('https://github.com/Trision/appCalculo/blob/main/DescontosMain/logo.png', 100)
 st.title('Cálcular desconto')
 carteira = st.radio('Carteira', ['Lendico', 'Consig', 'Help'], horizontal = True)
 valor = st.number_input('Digite o valor em aberto: ')
