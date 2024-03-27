@@ -3,7 +3,6 @@ import math
 import mysql
 
 #declarando página
-st.image('./logo.png','',100)
 st.title('Cálcular desconto')
 carteira = st.radio('Carteira', ['Lendico', 'Consig', 'Help'], horizontal = True)
 valor = st.number_input('Digite o valor em aberto: ')
